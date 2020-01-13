@@ -1,7 +1,7 @@
 # Monitoring EC2 Instnaces
 
 Terraform module that provision EC2 instances (monitored) with node exporter to export metrics to Promehteus server (monitor)
-and 
+ 
 
 ## Prometheus EC2 Service Discovery
 
