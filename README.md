@@ -7,7 +7,7 @@ and
 
 To allow Prometheus Services discovery scrap metrics over monitored instances we need to attached a role with the necesary permissions 
 
-[modules/ec2-monitor/ec2-monitor.yml](serverless.yml#L5-L12)
+[ec2-monitor.tf](modules/ec2-monitor/ec2-monitor.tf#L5-L12)
 ```
   assume_role_policy = <<EOF
 {
