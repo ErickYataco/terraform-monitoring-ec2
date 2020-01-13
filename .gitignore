@@ -2,4 +2,4 @@ ssh/
 *.tfvars
 .terraform
 *.tfstate
-
+*.tfstate.backup
