@@ -2,13 +2,13 @@ terraform {
   required_version = ">= 0.12"
   # backend "s3" {
   #   encrypt = "true"
-  #   bucket  = "terraform-state-nexus-user-conference"
+  #   bucket  = "terraform-monitoring-ec2"
   #   region  = "us-east-1"
-  #   key     = "jenkins/terraform.tfstate"
+  #   key     = "ec2/terraform.tfstate"
   # }
 }
 
 provider "aws" {
   region                  = "${var.region}"  
-  profile                 = "${var.aws_profile}"
+  profile                 = "${var.profile}"
 }
